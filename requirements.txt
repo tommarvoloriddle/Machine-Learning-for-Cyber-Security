@@ -1,0 +1,9 @@
+    ```
+    tensorflow>=x.x
+    matplotlib
+    pandas
+    numpy
+    seaborn
+    keras
+    tqdm
+    ```
