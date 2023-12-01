@@ -30,7 +30,7 @@ Make sure you have the following installed:
 3. Unzip the pruned models:
 
     ```bash
-    unzip pruned_models.zip -d /content/pruned_models
+    unzip pruned_models.zip
     ```
 
 ## Running eval.py
@@ -42,7 +42,7 @@ Make sure to follow these steps to run the evaluation script.
 2. Navigate to the project directory if you're not already there:
 
     ```bash
-    cd /path/to/your-repository
+    cd Machine-Learning-for-Cyber-Security
     ```
 
 3. Run the eval.py script with the following arguments:
@@ -50,7 +50,7 @@ Make sure to follow these steps to run the evaluation script.
     ```bash
     python eval.py /path/to/clean_data_filename /path/to/poisoned_data_filename /content/pruned_models/10.0
     ```
-
+    Replace /content/pruned_models/10.0 with /content/pruned_models/4.0 or /content/pruned_models/2.0 for 4%, 2% repaired models
     Replace `/path/to/clean_data_filename` and `/path/to/poisoned_data_filename` with the actual paths to your clean and poisoned data files.
 
 4. The script will use the specified model file from the pruned models directory.
@@ -68,8 +68,4 @@ If you prefer using the fine_pruning.ipynb file:
 2. Navigate to the fine_pruning.ipynb file and open it.
 
 3. Follow the instructions in the notebook for fine-tuning and evaluation.
-
-## Additional Information
-
-- For more details and customization options, refer to the README.md file.
 
