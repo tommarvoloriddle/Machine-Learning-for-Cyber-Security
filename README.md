@@ -18,13 +18,13 @@ Make sure you have the following installed:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+    git clone [https://github.com/your-username/your-repository.git](https://github.com/tommarvoloriddle/Machine-Learning-for-Cyber-Security.git)
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd your-repository
+    cd Machine-Learning-for-Cyber-Security
     ```
 
 3. Unzip the pruned models:
