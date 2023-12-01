@@ -54,6 +54,11 @@ Make sure to follow these steps to run the evaluation script.
     Replace `/path/to/clean_data_filename` and `/path/to/poisoned_data_filename` with the actual paths to your clean and poisoned data files.
 
 4. The script will use the specified model file from the pruned models directory.
+   
+5. Data
+Download the validation and test datasets from [here](https://drive.google.com/drive/folders/1Rs68uH8Xqa4j6UxG53wzD0uyI8347dSq) and store them under data/ directory.
+The dataset contains images from YouTube Aligned Face Dataset. We retrieve 1283 individuals and split into validation and test datasets.
+bd_valid.h5 and bd_test.h5 contains validation and test images with sunglasses trigger respectively, that activates the backdoor for bd_net.h5.
 
 ## Note for Jupyter Notebook Users
 
